@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.102" fx:controller="kriptoprojektni.OpenMessageFXMLController">
+   <children>
+      <Label fx:id="lblMessage" layoutX="14.0" layoutY="14.0" text="Message">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="69.0" text="From user:" />
+      <Label layoutX="98.0" layoutY="119.0" text="Date:" />
+      <Label layoutX="87.0" layoutY="172.0" text="Message:" />
+      <Text fx:id="lblFromUser" layoutX="211.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblDate" layoutX="211.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txtareaMessage" editable="false" layoutX="211.0" layoutY="172.0" prefHeight="195.0" prefWidth="290.0" wrapText="true">
+         <effect>
+            <Blend />
+         </effect>
+      </TextArea>
+   </children>
+</AnchorPane>

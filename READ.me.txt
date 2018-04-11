@@ -1,0 +1,3 @@
+korisnici alen i user1 su korisnici koji imaju validne certifikate
+semanic ima certifikat koji je povucen
+user2 nema certifikata
